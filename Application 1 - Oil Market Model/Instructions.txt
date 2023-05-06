@@ -1,0 +1,7 @@
+The code stored in this folder replicates the analysis conducted in section 3.1: "The importance of oil supply shocks for driving oil prices".
+
+1) To replicate the main analysis of the paper, first run "Runme_Models_Main.m". This code will generate raw MCMC output of the SVAR models used throughout the section. This can take a fairly long time.
+
+2) Once step 1) is completed, Table 1 can be computed running "Compute_Table_1_Main.m", and Table 2 can be computed running 
+"Compute_Table_2_Main.m". 
+

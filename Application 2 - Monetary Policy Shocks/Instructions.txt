@@ -1,0 +1,16 @@
+The code stored in this folder replicates the analysis conducted in section 3.2: "The effects of monetary policy", and supplementary results of online appendix H.2.
+
+1) To replicate the main analysis of the paper, first run "Runme_Models_Main.m". This code will generate raw MCMC output of the SVAR models identified by schemes R1, R2 and R3 and save it into the results folder. This will take a fairly long time - particularly for model R2 where we draw a large number from both posterior and prior. The reason is that we need a very long sample to get reliable Bayes Factors analysis.
+
+2) To plot Figure 1, run "Plot_Figure_1_Main.m". The code will use the MCMC output to create IRFs which are then plotted.
+
+3) To compute the Bayes Factor testing if the Romer and Romer instrument is exogenous under model R2, run "Compute_Bayes_Factor.m". Note that with each MCMC run - a different estimate will arise which is why it is unlikely that the number reported in the paper (2*BF=14.5) will be matched exactly.
+
+------------------- APPENDIX H.2 ------------------------------
+
+1) To compute Table 5 of the Appendix (Posterior distribution for parameters of the policy rule), run "Compute_Table_5_Appendix.m"
+
+2) To compute Figure 3 of the Appendix, first run the augmented models "Runme_Models_Appendix.m". Then run "Plot_Figure_3_Appendix.m".
+
+ 
+

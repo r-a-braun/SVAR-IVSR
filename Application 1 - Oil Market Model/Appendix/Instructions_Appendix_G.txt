@@ -1,0 +1,7 @@
+The code stored in this folder replicates the analysis conducted in Appendix G
+
+1) To generate output from model R1, run "BH19_R1.m"
+2) To generate output from model R2, and model R2 with either BH19 or HR20 treatment for the supply elasticity, run "BH19_R2s.m"
+3) Once the model output is created, "Compute_Table_4_App.m" computes all quantities tabulated in Table 4
+ 
+
